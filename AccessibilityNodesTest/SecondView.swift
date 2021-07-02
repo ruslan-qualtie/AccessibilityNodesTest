@@ -7,6 +7,7 @@ struct SecondView<Navigation: ViewState>: View {
         ZStack {
             Rectangle()
                 .fill(Color.green)
+                .background(Blur())
             Button(action: {
                 self.navigation.state = .first
             }) {
