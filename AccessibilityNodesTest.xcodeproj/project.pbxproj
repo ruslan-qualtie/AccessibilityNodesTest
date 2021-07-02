@@ -20,6 +20,7 @@
 		C337A9792689CF6E00CB662A /* ContainerAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337A9782689CF6E00CB662A /* ContainerAccessibility.swift */; };
 		C337A97B2689D98B00CB662A /* FirstObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337A97A2689D98B00CB662A /* FirstObject.swift */; };
 		C337A97D2689D9A200CB662A /* SecondObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337A97C2689D9A200CB662A /* SecondObject.swift */; };
+		DACB0ECE268F5FF50095A8E6 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB0ECD268F5FF50095A8E6 /* Blur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C337A9782689CF6E00CB662A /* ContainerAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerAccessibility.swift; sourceTree = "<group>"; };
 		C337A97A2689D98B00CB662A /* FirstObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstObject.swift; sourceTree = "<group>"; };
 		C337A97C2689D9A200CB662A /* SecondObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondObject.swift; sourceTree = "<group>"; };
+		DACB0ECD268F5FF50095A8E6 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				C337A94D2689C46B00CB662A /* Info.plist */,
 				C337A94E2689C46B00CB662A /* AccessibilityNodesTest.entitlements */,
 				C337A94A2689C46B00CB662A /* Preview Content */,
+				DACB0ECD268F5FF50095A8E6 /* Blur.swift */,
 			);
 			path = AccessibilityNodesTest;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACB0ECE268F5FF50095A8E6 /* Blur.swift in Sources */,
 				C337A9792689CF6E00CB662A /* ContainerAccessibility.swift in Sources */,
 				C337A9472689C46A00CB662A /* ContentView.swift in Sources */,
 				C337A97D2689D9A200CB662A /* SecondObject.swift in Sources */,
